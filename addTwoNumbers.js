@@ -1,3 +1,2 @@
-const merge = (a, b) => a.concat(b);
-function myAPITS(someString: string, someNum: number) { ... };
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
