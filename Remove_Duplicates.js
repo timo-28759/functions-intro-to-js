@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-console.log(+"1" +  "1" + "2");
-const uniqueArr = (arr) => [...new Set(arr)];
+console.log(1 +  -"1" + "2");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
