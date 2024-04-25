@@ -1,2 +1,4 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const arrayContains = (arr, element) => arr.includes(element);
+console.log(false == '0');
+var arr1 = "john".split('');
+const isArray = (arr) => Array.isArray(arr);
