@@ -1,4 +1,2 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-console.log(1 +  +"2" + "2");
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+console.log("0 && 1 = "+(0 && 1));
+const appName = getAppName(channel);
