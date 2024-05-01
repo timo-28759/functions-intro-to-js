@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const repositoryRootPath = path.resolve(__dirname, '..');
+console.log(false == '0');
+console.log(1 +  +"2" + "2");
