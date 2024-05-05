@@ -1,1 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
+function myAPITS(someString: string, someNum: number) { ... };
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
