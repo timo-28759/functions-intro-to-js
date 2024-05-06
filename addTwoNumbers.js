@@ -1,2 +1,1 @@
-console.log("0 && 1 = "+(0 && 1));
-const appName = getAppName(channel);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
