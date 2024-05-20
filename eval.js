@@ -1,3 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const flattenedArray = arr => [].concat(...arr);
