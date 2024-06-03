@@ -1,2 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const stringReverse = str => str.split("").reverse().join("");
+console.log(+"1" +  "1" + "2");
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const symbolsPath = path.join(buildOutputPath, 'symbols');
