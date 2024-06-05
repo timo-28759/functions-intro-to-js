@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const merge = [...new Set(a.concat(b))];
+function myAPITS(someString: string, someNum: number) { ... };
+const uniqueArray = arr => [...new Set(arr)];
