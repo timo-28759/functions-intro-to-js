@@ -1,3 +1,3 @@
-console.log(+"1" +  "1" + "2");
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+var arr3 = "jones".split('');
