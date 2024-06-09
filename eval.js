@@ -1,2 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
