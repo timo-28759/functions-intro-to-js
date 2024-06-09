@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const uniqueArray = arr => [...new Set(arr)];
+console.log("1 || 2 = "+(1 || 2));
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const results = await Promise.all(resultingPromises);
