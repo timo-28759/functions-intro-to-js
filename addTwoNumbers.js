@@ -1,3 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const results = await Promise.all(resultingPromises);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
