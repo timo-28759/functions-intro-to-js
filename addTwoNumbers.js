@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const fullName = name || 'buddy';
 const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
