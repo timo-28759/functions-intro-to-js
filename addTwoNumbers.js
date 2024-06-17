@@ -1,2 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const appName = getAppName(channel);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const merge = [...new Set([...a, ...b])];
