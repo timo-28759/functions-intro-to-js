@@ -1,3 +1,3 @@
-const maxNumber = arr => Math.max(...arr);
-const getRandomBoolean = () => Math.random() >= 0.5;
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const merge = (a, b) => [...a, ...b];
+const randomString = () => Math.random().toString(36).slice(2);
+var arr3 = "jones".split('');
