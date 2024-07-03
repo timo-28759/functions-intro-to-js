@@ -1,2 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const merge = (a, b) => a.concat(b);
+const randomString = () => Math.random().toString(36).slice(2);
+const isTabInView = () => !document.hidden;
