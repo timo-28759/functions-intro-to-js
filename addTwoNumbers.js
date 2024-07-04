@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const merge = [...new Set([...a, ...b])];
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+var c = new Counter(); c.add(); c.add(); c.add();
