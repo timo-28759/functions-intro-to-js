@@ -1,3 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-console.log("1 || 2 = "+(1 || 2));
-const maxNumber = arr => Math.max(...arr);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const merge = Object.assign({}, obj1, obj2);
