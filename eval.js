@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const randomString = () => Math.random().toString(36).slice(2);
-var arr3 = "jones".split('');
+console.log( "A" - "B" + 2);
+const isEven = (num) => num % 2 === 0;
+var DELIM_SIZE = 4;
