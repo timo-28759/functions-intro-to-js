@@ -1,3 +1,2 @@
-console.log(false == '0');
-const removeDuplicates = (arr) => [...new Set(arr)];
-[foo, bar] = [bar, foo];
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const lastElement = arr => arr[arr.length - 1];
