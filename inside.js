@@ -1,2 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log("1 && 2 = "+(1 && 2));
+const isEven = (num) => num % 2 === 0;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
