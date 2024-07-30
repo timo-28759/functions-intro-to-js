@@ -1,3 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-console.log(+"1" +  "1" + "2");
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
