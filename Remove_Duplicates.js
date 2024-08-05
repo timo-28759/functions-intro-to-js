@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+console.log(false === '0');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const isArray = (arr) => Array.isArray(arr);
