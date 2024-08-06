@@ -1,2 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const repositoryRootPath = path.resolve(__dirname, '..');
+const stringReverse = str => str.split("").reverse().join("");
+const randomBoolean = () => Math.random() >= 0.5;
